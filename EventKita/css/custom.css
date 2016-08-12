@@ -1,0 +1,67 @@
+*{padding: 0px; margin: 0px}
+.logo{width: 170px; margin-top: -15px !important}
+.navbar{background-color:#59BEDF; border-bottom:none; height: 70px; }
+.nav li a{margin: 25px 0; font-size: 16px; color: #fff !important; margin-top: 8px}
+.nav li :hover{background-color: #37A9CF !important;padding-bottom: 18px; margin-top: 0px; line-height: 36px}
+footer{background-color: #1690B9; }
+@media(max-width:768px ){
+	.col-xs-12{position: static !important;}
+	
+}
+
+@media (min-width: 1200px){
+.container {width: 914px;}
+}
+.panel{ color:white;}
+
+
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+
+#parallaxjb{
+    background-image: url("pattern.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 370px;
+    background-repeat: no-repeat;
+    
+}
+#parallaxclient{
+    background-image: url("imac.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 370px;
+    background-repeat: no-repeat;
+    
+}
+.caption .btn{background-color: transparent; color: white; border-color: white; border-width: 3px}
+.caption .btn:hover{background-color:#59BEDF; border-color: #59BEDF}
+footer #socialmedia{width: 45px; float: left; margin: 5px }
+footer ul{list-style: none;}
+#jfooter{ padding-bottom: 10px; border-bottom-style: double}
+#ciinfo{color: black; }
+#lici{margin: 5px 0}
+#abtus{margin-bottom: 0}
+.button{margin: 20px 0px 20px 0px; padding: 10px 0}
+#ocli{height: 150px}
+#li{visibility: hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
