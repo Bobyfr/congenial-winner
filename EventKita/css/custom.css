@@ -1,8 +1,8 @@
 *{padding: 0px; margin: 0px}
-.logo{width: 170px; margin-top: -15px !important}
-.navbar{background-color:#59BEDF; border-bottom:none; height: 70px; }
-.nav li a{margin: 25px 0; font-size: 16px; color: #fff !important; margin-top: 8px}
-.nav li :hover{background-color: #37A9CF !important;padding-bottom: 18px; margin-top: 0px; line-height: 36px}
+.logo{width: 120px; margin-top: -15px !important}
+.navbar{background-color:#59BEDF ; border-bottom:none;  }
+.nav .menu .link{ font-size: 16px; color: #fff; }
+.nav .menu .link:hover{color: white; background-color: #59BEDF}
 footer{background-color: #1690B9; }
 @media(max-width:768px ){
 	.col-xs-12{position: static !important;}
@@ -47,6 +47,83 @@ footer ul{list-style: none;}
 .button{margin: 20px 0px 20px 0px; padding: 10px 0}
 #ocli{height: 150px}
 #li{visibility: hidden;}
+
+
+
+.company #ddown{
+    color: black ;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.company a:hover {background-color: #f1f1f1}
+
+ .dropdown:hover .company {
+    display: block; margin-right: 10px !important
+}
+.company {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 10px
+}
+
+
+.categories #ddown{
+    color: black ;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+        text-align: left;
+}
+
+.categories a:hover {background-color: #f1f1f1}
+
+ .dropdown:hover .categories {
+    display: block; margin-right: 10px !important
+}
+.categories {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 10px
+
+}
+
+
+.search a:hover {background-color: #f1f1f1}
+
+ .dropdown:hover .search {
+    display: block; margin-right: 10px !important
+}
+.search {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+
+}
+
+
+
+.ddw {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.modal { top: 100px;}
+
+
+
 
 
 
